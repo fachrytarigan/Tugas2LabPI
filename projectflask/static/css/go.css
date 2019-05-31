@@ -1,0 +1,133 @@
+
+.nam{
+    padding: 20px;
+	font-family: agency fb;
+	font-size:25px;
+	color:#333333;
+}
+
+.bo{
+	background-color:#614630;
+	border-radius:80%;
+}
+
+.bo:hover,:focus{
+	background-color:#b69976;
+}
+.bro{
+	background-color:#bd9177;
+	border-radius:80%;
+}
+
+.bro:hover,:focus{
+	background-color:#196088;
+}
+.bri{
+	background-color:#614630;
+	border-radius:80%;
+}
+
+.bri:hover,:focus{
+	background-color:#c714ed;
+}
+.br{
+	background-color:#3f362a;
+}
+.copy{
+	color:#ffffff;
+}
+.selan{
+	color:#8b562c;
+}
+.selan :hover,:focus{
+	background-color:#8b562c;
+}
+.kuy{
+	color:white;
+	z-index:600;
+}
+
+.isi{
+	color:#8b562c;
+}
+.ling{
+color:#3d1b06;
+}
+.ling:hover,:focus{
+	color:#eb990a;
+}
+
+@media only screen and (max-width: 360px) {
+	.nam{
+		font-size:22px;
+	}
+	
+	.be{
+	background-color: #8b562c;
+	border:none;
+	}
+	.intro-header .site-heading .subheading,
+	.intro-header .page-heading .subheading{
+	font-size: 20px;
+	line-height: 1.1;
+	display: block;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	margin: 10px 10px 0 0;
+	}
+	
+	#to-top {
+  display: none;
+  position: fixed;
+  z-index:500;
+  bottom: 10px;
+  right: 15px;
+}
+	
+}
+
+@media only screen and (max-width: 766px) {
+	.be{
+	background-color: #3f362a;
+	border:none;
+	}
+	
+	.navbar-custom .navbar-header .navbar-toggle{
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color:#3f362a;
+  font-size: 12px;
+}
+
+	.navbar-custom .navbar-header .navbar-toggle:hover{
+  color: #3f362a;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color:white;
+  font-size: 12px;
+}
+	
+	.navbar-custom .navbar-brand {
+    color: white;
+    padding: 20px;
+	}
+	.navbar-custom .navbar-brand:hover,
+	.navbar-custom .navbar-brand:focus {
+    color: white;
+	}
+	.navbar-custom .nav li a {
+    color: white;
+    padding: 20px;
+	}
+	.navbar-custom .nav li a:hover,
+	.navbar-custom .nav li a:focus {
+    color: rgba(255, 255, 255, 0.8);
+	}
+	
+	.navbar-custom .nav li a {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	}
+}

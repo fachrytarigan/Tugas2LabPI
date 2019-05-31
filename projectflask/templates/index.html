@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+	<meta name="csrf-token" content="YLbgrULNZgerBuOZMMlVkaOAHQBkQ1CL2dhcDycw">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="najah, darularafah, najahdarularafah, pesantren, anduma">
+    <meta name="description" content="Najah adalah Alumni ke - 25 Pesantren Darularafah Raya">
+    <meta name="author" content="Najah 25">
+	<link href="{{ url_for('static', filename='img/gokil.png') }}" rel="icon" >
+    <title>NAJAH 25</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="{{ url_for('static', filename='css/clean-blog.css') }}" rel="stylesheet">
+	
+
+    <!-- Custom Fonts -->
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href="{{ url_for('static', filename='css/go.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/stylish-portfolio.css') }}" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body  id="top">
+
+    <!-- Navigation -->
+    <nav  class="navbar navbar-default navbar-custom navbar-fixed-top be">
+        <div class="container-fluid ">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand nam" href="index.html">Najah 25 Darularafah</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li >
+                        <a href="{{ url_for('home') }}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('about') }}">Tentang Kami</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('daftar') }}">Daftar</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('{{ url_for('static', filename='img/gem.jpg') }}')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>مَنْ جَدَّ نَجَحَ</h1>
+                        <hr class="small">
+                        <span class="subheading">Cahaya atas Kesungguhan Alumni ke-25 Darularafah Raya<br>
+						Barang siapa bersungguh-sungguh, maka dapatlah ia<br>
+						Dan dari suatu yang kita dapat, kelak menjadi jalan menuju kesuksesan
+						</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="">
+                        <h2 class="post-title">
+                            Semua yang Telah Lalu
+                        </h2>
+						<img class="img-responsive" src="{{ url_for('static', filename='img/posting/yol.jpg') }}">
+						<span class="caption text-muted">Kawan-kawan sedang mengangkat baleho acara pentas seni untuk di pasang di depan asrama 17 Agustus.</span>
+                        <h3 class="post-subtitle">
+                            Semua yang berlalu pasti menjadi sejarah dalam hidup, mau itu baik atau buruk tetap akn menjadi sejarah hidup dan pastinya menjadi pelajaran hidup yang sangat berharga
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Najah25</a> on February 23, 2017</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="">
+                        <h2 class="post-title">
+							Najah Footbal Club Kit Jersey
+                        </h2>
+						<img class="img-responsive" src="{{ url_for('static', filename='img/posting/new1.jpg') }}">
+						<span class="caption text-muted">Kit Jersey Najah</span>
+						<img class="img-responsive" src="{{ url_for('static', filename='img/posting/new2.jpg') }}">
+						<span class="caption text-muted">Goalkeeper Kit Jersey Najah</span>
+						<img class="img-responsive" src="{{ url_for('static', filename='img/posting/new3.jpg') }}">
+						<span class="caption text-muted">Coach Kit Jersey Najah</span>
+						<img class="img-responsive" src="{{ url_for('static', filename='img/posting/new4.jpg') }}">
+						<span class="caption text-muted">Jacket Jersey Najah</span>
+                        <h3 class="post-subtitle">
+                            Ini dia nih!!! Najah Footbal Club Kit Jersey. Baju bolanya Najah. Masih ada semua kan bajunya?
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Najah25</a> on February 20, 2017</p>
+                </div>
+                <hr>
+                <!-- Pager -->
+                <ul class="pager selan">
+                    <li class="next selan">
+                        <a class="selan" href="#">Selanjutnya &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="br">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://www.twitter.com/najah25_/" target="_blank" title="Twitter">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse bo"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/najah25_/" target="_blank" title="Facebook">
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse bo"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/najah25_/" target="_blank" title="Instagram">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse bo"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted copy">Copyright &copy; Najah 25 2017<br>All right reserved</p>
+                </div>
+            </div>
+        </div>
+		<a id="to-top" href="#top" class="btn btn-dark btn-lg "><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+	
+	 
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='vendor/jquery/jquery.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{{ url_for('static', filename='js/jqBootstrapValidation.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/contact_me.js') }}"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="{{ url_for('static', filename='js/clean-blog.min.js') }}"></script>
+	
+	<script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
